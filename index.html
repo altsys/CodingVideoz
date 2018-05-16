@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CSS Custom Properties Illustrator</title>
+  </head>
+  <body>
+      <div class="container">
+        <div class="intro">
+          <h1>CSS Custom Properties. Changing values with <span class="main">JS</span></h1>
+          <p>CSS custom properties enable us to declare and use variables inside CSS withour preprocessors.
+              CSS custom properties are part of DOM, as a result these variable can be declared globally or locally.
+              Unlike LESS and SCSS, CSS custom properties can also be manipulated using JS</p>
+        </div>
+        <div class="controllers">
+          <label for="spacing">Spacing:</label>
+          <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+          <label for="blur">Blur:</label>
+          <input type="range" name="blur" value="10" min="0" max="25" data-sizing="px">
+
+          <label for="base">Base Color:</label>
+          <input type="color" name="base" value="#ffc600">
+
+        </div>
+        <div class="content">
+          <img src="https://images.unsplash.com/photo-1510505710893-29cf1cad2d33?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=18d0ec312281723c9f24de9d0d228caa&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb" alt="CSS Custom Properties Illastration Picture">
+        </div>
+      </div>
+
+      <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>

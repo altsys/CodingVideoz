@@ -1,0 +1,35 @@
+/* Declare variable in the sedu selector :root */
+:root {
+  --base: #ffc107;
+  --spacing: 10px;
+  --blur: 10px;
+}
+html, body {
+  text-align: center;
+  background-color: #ffc;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 19px;
+  padding: 1rem;
+}
+h1, h2 {
+  font-size: 50px;
+}
+.main {
+  color: var(--base);
+}
+.intro {
+  padding: 1rem;
+  margin: 2rem 0;
+}
+.controllers {
+  margin: 2rem 0;
+}
+.content {
+  margin: 2rem 0;
+}
+.content img {
+  padding: var(--spacing);
+  background-color: var(--base);
+  filter: blur(var(--blur));
+}
